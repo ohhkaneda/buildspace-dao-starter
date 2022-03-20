@@ -4,12 +4,12 @@ body {
   font-family: Inter, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #7700ee;
+  background-color: #000000;
   color: #fff;
   overflow-x: hidden;
 }
 #root {
-  min-height: 100vh;
+  min-height: 50vh;
   display: flex;
 }
 
@@ -47,7 +47,7 @@ h1 {
 .mint-nft,
 .member-page {
   flex-direction: column;
-  width: 960px;
+  width: 800px;
   max-width: calc(100% - 1rem);
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -93,7 +93,7 @@ h1 {
 
 .member-page form h5 {
   margin-top: 0;
-  color: #7700ee;
+  color: #db411b;
 }
 
 .member-page form .card > div {
@@ -111,13 +111,13 @@ h1 {
   padding: 1rem;
   border-radius: 1rem;
   color: #000;
-  box-shadow: 3.1px 6.2px 6.2px hsl(0deg 0% 0% / 0.4);
+  box-shadow: 3.1px 6.2px 6.2px rgba(255, 255, 255, 0.4);
 }
 
 button {
   cursor: pointer;
-  background-color: #000;
-  color: #fff;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   border: none;
   font-weight: bold;
   font-family: inherit;
@@ -128,11 +128,11 @@ button {
 }
 
 button:hover {
-  background-color: #121212;
+  background-color: hsla(0, 0%, 100%, 0.514);
 }
 
 button:focus {
-  background-color: #222;
+  background-color: hsla(0, 0%, 100%, 0.514);
 }
 
 button:disabled {
