@@ -19,7 +19,7 @@ const tokenModule = sdk.getTokenModule(
   
     if (walletAddresses.length === 0) {
       console.log(
-        "No NFTs have been claimed yet, maybe get some friends to claim your free NFTs!",
+        "No NFTs have been claimed yet",
       );
       process.exit(0);
     }
